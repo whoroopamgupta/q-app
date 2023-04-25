@@ -1,0 +1,77 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section .heading h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  margin-top: 15px;
+}
+
+.buttons {
+  width: 600px;
+  display: flex;
+  margin: 20px;
+}
+
+.buttons .btn {
+  width: 120px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.profiles {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  text-decoration: none;
+  border: 3px solid red;
+  margin: 25px 0;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: rgb(245, 208, 194);
+}
+
+.user-profiles {
+  display: flex;
+  justify-content: center;
+}
+
+.profiles .profile img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.profile h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+}
+
+.request-btn {
+  margin: 15px 0;
+  border: 3px solid black;
+  padding: 7px;
+  font-size: 1rem;
+  background: #000;
+  cursor: pointer;
+  color: #fff;
+}
+
+.request-btn .profile-btn {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.profile p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 17px;
+}
