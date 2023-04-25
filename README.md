@@ -1,4 +1,4 @@
 ## Hit `npm install`
-##Hit   npm start`
+## Hit `npm start`
 
 Thats it.
